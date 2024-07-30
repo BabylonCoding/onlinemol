@@ -78,8 +78,7 @@ function App() {
               "currency": "دع",
               "comment": "Goods",
               "invoiceNumber": "2354544453",
-              "clientMobile": mobile
-          
+              "clientMobile": mobile         
           }),
         })
           .then((response) => response.json())
@@ -116,7 +115,6 @@ function App() {
 					filterCourseFunction={filterCourseFunction}
 					addCourseToCartFunction={addCourseToCartFunction}
 				/>
-
 				<UserCartComponent
           setAmount={setAmount}
           setMobile={setMobile}
@@ -130,5 +128,4 @@ function App() {
 		</div>
 	);
 }
-
 export default App;
