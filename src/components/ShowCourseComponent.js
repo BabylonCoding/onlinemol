@@ -12,7 +12,7 @@ function ShowCourseComponent({ courses,
 				</p>
 			) : (
 				filterCourseFunction.map((product) => (
-					<div className="product" key={product.id}>
+					<div className="product" key={product.id} >
 						<img src={product.image} alt={product.name} />
 						<h2>{product.name}</h2>
 						<p>السعر: د.ع{product.price}</p>
